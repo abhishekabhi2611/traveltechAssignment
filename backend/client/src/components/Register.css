@@ -1,0 +1,49 @@
+.RegistrationContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  width: 100vw;
+}
+
+.RegisterSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 500px;
+  -moz-box-shadow: 0 0 5px #999;
+  -webkit-box-shadow: 0 0 5px #999;
+  box-shadow: 0 0 10px #999;
+}
+
+.contentSection {
+  margin: 25px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+}
+.contentSection h2 {
+  letter-spacing: 2px;
+}
+
+.MuiFormControl-root.MuiTextField-root {
+  margin: 5px;
+  padding: 5px;
+  width: 250px;
+}
+
+.RegisterBtnSection {
+  margin: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+Button.ResetBtn {
+  background-color: rgb(255, 125, 3) !important;
+  color: black;
+}
+
+Button.signUpButton {
+  background-color: rgb(0, 132, 255) !important;
+  color: white;
+}

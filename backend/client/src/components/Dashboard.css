@@ -1,0 +1,232 @@
+.DashboardContainer {
+  display: flex;
+  flex-direction: row;
+}
+Button.logout {
+  background-color: orange !important;
+  color: white;
+}
+.leftSection {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  padding: 2%;
+}
+.rightSection {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  padding: 2%;
+}
+
+.firstSection {
+  display: flex;
+  justify-content: center;
+}
+.box1 {
+  margin: 10px;
+  height: 250px;
+  width: 48%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-box-shadow: 0 0 5px #999;
+  -webkit-box-shadow: 0 0 5px #999;
+  box-shadow: 0 0 10px #999;
+}
+.box2 {
+  margin: 10px;
+  height: 250px;
+  width: 48%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-box-shadow: 0 0 5px #999;
+  -webkit-box-shadow: 0 0 5px #999;
+  box-shadow: 0 0 10px #999;
+}
+.box3 {
+  margin: 20px auto;
+  height: 350px;
+  width: 98%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-box-shadow: 0 0 5px #999;
+  -webkit-box-shadow: 0 0 5px #999;
+  box-shadow: 0 0 10px #999;
+}
+
+.SecondSection {
+  display: flex;
+  justify-content: center;
+}
+
+.box4 {
+  margin: 10px;
+  height: 100px;
+  width: 45%;
+  -moz-box-shadow: 0 0 5px #999;
+  -webkit-box-shadow: 0 0 5px #999;
+  box-shadow: 0 0 10px #999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box5 {
+  margin: 10px;
+  height: 100px;
+  width: 45%;
+  -moz-box-shadow: 0 0 5px #999;
+  -webkit-box-shadow: 0 0 5px #999;
+  box-shadow: 0 0 10px #999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box6 {
+  margin: 10px auto;
+  width: 95%;
+  height: 130px;
+  -moz-box-shadow: 0 0 5px #999;
+  -webkit-box-shadow: 0 0 5px #999;
+  box-shadow: 0 0 10px #999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box7 {
+  margin: 20px auto;
+  width: 95%;
+  height: 350px;
+  -moz-box-shadow: 0 0 5px #999;
+  -webkit-box-shadow: 0 0 5px #999;
+  box-shadow: 0 0 10px #999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 1000px) {
+  .SecondSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .box4 {
+    margin: 10px auto;
+    height: 113px;
+    width: 90%;
+    -moz-box-shadow: 0 0 5px #999;
+    -webkit-box-shadow: 0 0 5px #999;
+    box-shadow: 0 0 10px #999;
+  }
+
+  .box5 {
+    margin: 10px auto;
+    height: 113px;
+    width: 90%;
+    -moz-box-shadow: 0 0 5px #999;
+    -webkit-box-shadow: 0 0 5px #999;
+    box-shadow: 0 0 10px #999;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  img.image {
+    height: 50%;
+    width: 50%;
+  }
+
+  .DashboardContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .leftSection {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+
+    padding: 2%;
+  }
+  .rightSection {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    padding: 2%;
+  }
+
+  .firstSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .box1 {
+    margin: 10px auto;
+    height: 200px;
+    width: 90%;
+    -moz-box-shadow: 0 0 5px #999;
+    -webkit-box-shadow: 0 0 5px #999;
+    box-shadow: 0 0 10px #999;
+  }
+  .box2 {
+    margin: 10px auto;
+    height: 200px;
+    width: 90%;
+    -moz-box-shadow: 0 0 5px #999;
+    -webkit-box-shadow: 0 0 5px #999;
+    box-shadow: 0 0 10px #999;
+  }
+  .box3 {
+    margin: 20px auto;
+    height: 350px;
+    width: 90%;
+    -moz-box-shadow: 0 0 5px #999;
+    -webkit-box-shadow: 0 0 5px #999;
+    box-shadow: 0 0 10px #999;
+  }
+  .box4 {
+    margin: 10px auto;
+    height: 113px;
+    width: 90%;
+    -moz-box-shadow: 0 0 5px #999;
+    -webkit-box-shadow: 0 0 5px #999;
+    box-shadow: 0 0 10px #999;
+  }
+
+  .box5 {
+    margin: 10px auto;
+    height: 113px;
+    width: 90%;
+    -moz-box-shadow: 0 0 5px #999;
+    -webkit-box-shadow: 0 0 5px #999;
+    box-shadow: 0 0 10px #999;
+  }
+  .box6 {
+    margin: 10px auto;
+    width: 90%;
+    height: 130px;
+    -moz-box-shadow: 0 0 5px #999;
+    -webkit-box-shadow: 0 0 5px #999;
+    box-shadow: 0 0 10px #999;
+  }
+
+  .box7 {
+    margin: 20px auto;
+    width: 90%;
+    height: 350px;
+    -moz-box-shadow: 0 0 5px #999;
+    -webkit-box-shadow: 0 0 5px #999;
+    box-shadow: 0 0 10px #999;
+  }
+}
+
+img.image {
+  height: 50%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
